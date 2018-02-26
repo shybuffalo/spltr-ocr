@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <script src='js/modernizr.js'></script>
+    <script src='http://unpkg.com/jquery'></script>
+    <link href='css/style.css' rel='stylesheet' />
+    <title>Spltr OCR</title>
+  </head>
+  <body>
+  <!-- <img src='img/test.jpg' id='testImg' /> -->
+  <!-- <video autoplay></video> -->
+  <div class='container'>
+    <form method='post' enctype='multipart/form-data'>
+      <div>
+        <label for='fileInput'>Choose an image for upload</label>
+        <input id='fileInput' name='img_uploads' type='file' accept='image/*'/>
+      </div>
+      <div class='preview'>
+        <p>no files currently selected</p>
+      </div>
+      <div>
+        <button id='sub'>submit</button>
+      </div>
+    </form>
+
+  </div>
+
+  <script src='js/script.js'></script>
+  </body>
+</html>
